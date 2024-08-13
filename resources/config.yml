@@ -1,0 +1,3 @@
+no-permission-msg: "§cYou don't have permission"
+min-nick: 3
+max-nick: 15

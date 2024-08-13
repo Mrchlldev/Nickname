@@ -1,0 +1,21 @@
+name: Nickname
+version: 1.0.0
+api: 5.0.0
+author: Mrchlldev
+main: Mrchlldev\Nickname\Nick
+
+commands:
+  nickname:
+    permission: nick.command
+    description: "Change or reset your player name"
+    aliases: ["nick"]
+
+permissions:
+  nick.command:
+    default: true
+  nick.reset:
+    default: true
+  nick.use:
+    default: op
+  nick.color.use:
+    default: op
