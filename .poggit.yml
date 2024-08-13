@@ -5,4 +5,7 @@ branches:
 projects:
   Nickname:
     path: ""
+    libs:
+    - src: jojoe77777/FormAPI/FormAPI
+      version: ^1.0.0
 ...
