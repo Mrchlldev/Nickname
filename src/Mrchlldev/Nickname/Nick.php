@@ -20,7 +20,7 @@ class Nick extends PluginBase {
     public function onEnable(): void {
         $this->saveResource("config.yml");
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
-        if(!(is_numeric((float)(int)$this->config->get("min-nick"))) || !(is_numeric((int)$this->config->get("max-nick")))){
+        if(!(is_numeric((int)$this->config->get("min-nick"))) || !(is_numeric((int)$this->config->get("max-nick")))){
             $this->getServer()->getLogger()->warning("The config plugin of min-nick or max-nick is not numeric! disable plugin.");
             $this->getServer()->getPluginManager()->disablePlugin($this);
             return;
