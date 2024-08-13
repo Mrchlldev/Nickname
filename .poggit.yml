@@ -5,7 +5,4 @@ branches:
 projects:
   Nickname:
     path: ""
-    libs:
-    - src: jojoe77777/FormAPI/SimpleForm
-      version: ^1.0.0
 ...
