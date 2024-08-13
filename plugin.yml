@@ -3,6 +3,7 @@ version: 1.0.0
 api: 5.0.0
 author: Mrchlldev
 main: Mrchlldev\Nickname\Nick
+depend: ["FormAPI"]
 
 commands:
   nickname:
