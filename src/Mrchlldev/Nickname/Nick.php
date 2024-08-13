@@ -123,32 +123,32 @@ class Nick extends PluginBase {
                case 0:
                  $player->setNameTag(TextFormat::BLUE . $player->getDisplayName() . TextFormat::RESET);
                  $player->setDisplayName(TextFormat::BLUE . $player->getDisplayName() . TextFormat::RESET);
-                 $player->sendMessage("§aSuccesfully changed your nickname to: " . TextFormat::BLUE . $player->getDisplayName());
+                 $player->sendMessage("§aSuccesfully changed your nickname color to: " . TextFormat::BLUE . $player->getDisplayName());
                break;
                case 1:
                  $player->setNameTag(TextFormat::RED . $player->getDisplayName() . TextFormat::RESET);
                  $player->setDisplayName(TextFormat::RED . $player->getDisplayName() . TextFormat::RESET);
-                 $player->sendMessage("§aSuccesfully changed your nickname to: " . TextFormat::RED . $player->getDisplayName() . TextFormat::RESET);
+                 $player->sendMessage("§aSuccesfully changed your nickname color to: " . TextFormat::RED . $player->getDisplayName() . TextFormat::RESET);
                break;
                case 2:
                  $player->setNameTag(TextFormat::YELLOW . $player->getDisplayName() . TextFormat::RESET);
                  $player->setDisplayName(TextFormat::YELLOW . $player->getDisplayName() . TextFormat::RESET);
-                 $player->sendMessage("§aSuccesfully changed your nickname to: " . TextFormat::YELLOW . $player->getDisplayName());
+                 $player->sendMessage("§aSuccesfully changed your nickname color to: " . TextFormat::YELLOW . $player->getDisplayName());
                break;
                case 3:
                  $player->setNameTag(TextFormat::GREEN . $player->getDisplayName() . TextFormat::RESET);
                  $player->setDisplayName(TextFormat::GREEN . $player->getDisplayName() . TextFormat::RESET);
-                 $player->sendMessage("§aSuccesfully changed your nickname to: " . TextFormat::GREEN . $player->getDisplayName());
+                 $player->sendMessage("§aSuccesfully changed your nickname color to: " . TextFormat::GREEN . $player->getDisplayName());
                break;
                case 4:
                  $player->setNameTag(TextFormat::BLUE . $player->getDisplayName() . TextFormat::RESET);
                  $player->setDisplayName(TextFormat::LIGHT_PURPLE . $player->getDisplayName() . TextFormat::RESET);
-                 $player->sendMessage("§aSuccesfully changed your nickname to: " . TextFormat::LIGHT_PURPLE . $player->getDisplayName());
+                 $player->sendMessage("§aSuccesfully changed your nickname color to: " . TextFormat::LIGHT_PURPLE . $player->getDisplayName());
                break;
                case 0:
                  $player->setNameTag(TextFormat::AQUA . $player->getDisplayName() . TextFormat::RESET);
                  $player->setDisplayName(TextFormat::AQUA . $player->getDisplayName() . TextFormat::RESET);
-                 $player->sendMessage("§aSuccesfully changed your nickname to: " . TextFormat::AQUA . $player->getDisplayName());
+                 $player->sendMessage("§aSuccesfully changed your nickname color to: " . TextFormat::AQUA . $player->getDisplayName());
                break;
            }
        });
